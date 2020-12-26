@@ -1,0 +1,106 @@
+body{
+    background-image:linear-gradient(to right,purple, rgb(171, 57, 247))
+}
+.box{
+    text-align: center;
+    margin: 10px auto;
+    width:40vw;
+    background-color: rgba(247, 231, 231, 0.6);
+    border-radius: 10px;
+    
+}
+.box p{
+    color: white;
+    font-size: 30px;
+    color: black;
+}
+.box input{
+    border: none;
+    border-radius: 10px;
+    height:40px;
+    width:70%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+.box input:focus{
+    outline: none;
+}
+
+.error{
+    margin:10px auto;
+    text-align: center;
+    width:40vw;
+    min-height: 60px;
+    /* background-color: rgba(247, 231, 231, 0.6); */
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size:40px;
+    color: red;
+}
+.error p
+{
+    background-color: white;
+    width:50%;
+    margin:10px auto;
+    border-radius: 10px;
+
+}
+.data{
+    text-align: center;
+    margin:10px auto;
+    background-color: white;
+     background-color: rgb(101, 213, 244,0.3); 
+     width:30vw;
+     min-height: 400px;
+    border-radius: 10px;
+ 
+
+     
+}
+ .name{
+    color:white;
+    font-size: 60px;
+    padding-top:20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#icon{
+    color: white;
+    margin-right: 20px;
+    font-size: 25px;
+}
+#icon:hover{
+    color:black;
+}
+#icon_1{
+    padding-top: 30px;
+   color: white;
+   font-size: 100px;
+}
+.temp{
+    font-size: 70px;
+    margin-right: 40px;
+}
+.tempvar{
+    font-size: 20px;
+}
+.name:hover{
+    color:black;
+}
+
+
+@media only screen and (max-width:820px)
+{
+    .box{
+        width:90vw;
+    }
+    .data{
+        width:90vw;
+    }
+    .error
+    {
+        width:100%;
+    }
+}
