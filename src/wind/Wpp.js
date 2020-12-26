@@ -13,6 +13,7 @@ useEffect(()=>{
        fetch(`http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=ebee5f5b224d080985d3980f3a00ba2a`)
           .then(response=>response.json())
           .then(data=>setCity(data))
+          console.log(city)
           
 },[search])
 
@@ -21,6 +22,7 @@ useEffect(()=>{
         <div>
              <input type="text" onChange={e=>{setSearch(e.target.value)}}></input>
              {!city ?(<p>Error</p> ):(<div><h1>{city.name}</h1><h2></h2></div> )}
+            
         </div>
     )
 }
