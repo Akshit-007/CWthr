@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
 // import 'bootstrap/dist/css/bootstrap.min.css'
 // import './index.css';
 // import TApp from './todo/TApp';
-import Wapp from './Weather/Wpp'
+import Wapp from './weather/Wapp'
 
 
 
