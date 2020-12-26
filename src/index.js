@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
 // import 'bootstrap/dist/css/bootstrap.min.css'
 // import './index.css';
 // import TApp from './todo/TApp';
-import Wpp from './wind/Wpp'
+import Wapp from './Weather/Wpp'
 
 
 
@@ -14,7 +14,7 @@ import Wpp from './wind/Wpp'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Wpp />
+    <Wapp />
   </React.StrictMode>,
   document.getElementById('root')
 );
