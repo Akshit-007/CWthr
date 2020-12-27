@@ -11,9 +11,11 @@ function Wapp() {
     useEffect(() => {
         const fetchApi = async () => {
     
-            const url = `http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=ebee5f5b224d080985d3980f3a00ba2a`
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=ebee5f5b224d080985d3980f3a00ba2a`
             const response = await fetch(url);
             const resJson = await response.json();
+           
+          console.log(city)
             console.log(resJson)
             setCity(resJson.main);
         }
